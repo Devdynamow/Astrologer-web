@@ -996,13 +996,10 @@ color: rgba(54, 54, 54, 0.728);
     
 
     #page1{
-      width: 100vw;  
-      height: 60vh;
+        min-height: 40vh;
     }
 
     #page2{
-      width: 100vw;  
-
         height: 40vh;
     }
 
@@ -1529,21 +1526,5 @@ height: 45%;
   border-radius: 10px;
 
 }
-#imagespage{
-  width: 100vw;
-  height: 90vh;
- 
-
-
-}
-#imagespage img{
-  width: 80%;
-  height: 4   0%;
-}
-#imagespage h1{
-  margin-bottom: 3vw;
-  font-size: 6vw;
-}
-
   
 }
