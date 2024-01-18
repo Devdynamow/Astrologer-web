@@ -996,7 +996,7 @@ color: rgba(54, 54, 54, 0.728);
     
 
     #page1{
-        min-height: 40vh;
+        min-height: 10vh;
     }
 
     #page2{
@@ -1021,7 +1021,7 @@ color: rgba(54, 54, 54, 0.728);
     }
 
     #about-page {
-       height: 135vh;
+       height: 110vh;
     }
     #about-page h2{
         font-size: 4.2vw;
@@ -1525,6 +1525,39 @@ height: 45%;
   overflow: hidden;
   border-radius: 10px;
 
+}
+#menupage #mtext h2{
+  font-size: 15vw;
+  font-family: "neuer";
+  -webkit-text-stroke: 5px white;
+}
+#menupage span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  padding: 2vw 2vw;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+#menupage span i{
+  font-size: 5vw;
+}
+#imagespage{
+  width: 100vw;
+  height: 70vh;
+  background-color: #EFEAE3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2vw;
+
+
+}
+#imagespage img{
+  width: 90%;
+  height: 80%;
 }
   
 }

@@ -89,42 +89,6 @@ page1();
 
 
 
-    gsap.from("#imagespage img", {
-        // rotate:"360",
-        x: 500,
-        duration: 2,
-        opacity: 0,
-        scale: 0,
-        scrollTrigger: {
-            trigger: "#imagespage ",
-            scroller: "#main",
-            start: "top 15%",
-            end: "top -2%",
-            scrub: 4,
-        }
-    })
-    gsap.from("#imagespage h1", {
-        // rotate:"360",
-        y: 300,
-        duration: 2,
-        opacity: 0,
-        scale: 0,
-        scrollTrigger: {
-            trigger: "#imagespage ",
-            scroller: "#main",
-            start: "top 30%",
-            end: "top -2%",
-            scrub: 4,
-        }
-    })
-   
-
-
-
-
-
-
-
 
 var pageimages = document.querySelectorAll("#page2 .page2images ");
 pageimages.forEach(function (datan) {
