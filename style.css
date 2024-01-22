@@ -1021,7 +1021,8 @@ color: rgba(54, 54, 54, 0.728);
     }
 
     #about-page {
-       height: 110vh;
+      width: 100%;
+       height: 125vh;
     }
     #about-page h2{
         font-size: 4.2vw;
@@ -1088,7 +1089,7 @@ color: rgba(54, 54, 54, 0.728);
     #scroller #row1 h1{
         display: inline-block;
         font-size: 60px;
-    
+    -webkit-text-stroke: 2px white ;
         margin-left: 20px;
         animation: h1 15s linear 1s infinite ;
       
@@ -1108,21 +1109,16 @@ color: rgba(54, 54, 54, 0.728);
     #scroller #row2 h1{
         display: inline-block;
         font-size: 60px;
-    
         margin-left: 20px;
-        
-    
-    
+    -webkit-text-stroke: 2px white ;
+
     }
 
     
     
     
 
-    #page8 {
-        height: 60vh;
-        
-    }
+   
 
     /* didn't work do check out */
     /* .pin-spacer{
@@ -1130,16 +1126,16 @@ color: rgba(54, 54, 54, 0.728);
     } */
 
     #need #upper h1 {
-        font-size: 10vw;
+        font-size: 14vw;
         line-height: 12vw;
     }
 
     #need #points li{
-        font-size: 5vw;
+        font-size: 10vw;
     }
 
     #gallery #h1g{
-        font-size: 5vw;
+        font-size: 8vw;
     }
 
     #gallery #gimage{
@@ -1286,7 +1282,7 @@ color: rgba(54, 54, 54, 0.728);
     background-position: center;
     background-size: cover;
     width: 90%;
-    height: 60vh;
+    height: 70vh;
     border-radius: 10px;
     overflow: hidden;
     padding: 2vw;
@@ -1314,6 +1310,9 @@ color: rgba(54, 54, 54, 0.728);
     /* background-color: red; */
     margin-top: 2px;
   }
+#our-service  .swiper-slide #textd p{
+  font-size: 3.4vw;
+}
   #address{
     width: 100vw;
     height: 55vh;
@@ -1370,8 +1369,8 @@ color: rgba(54, 54, 54, 0.728);
   margin-top: 2vw;
 }
 #reviews .swiper {
-  width: 300vw;
-  height: 70%;
+  width: 250vw;
+  height: 80%;
   margin-top: 5vw;
 }
 
@@ -1511,7 +1510,7 @@ height: 45%;
 }
 #badeguruji{
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   background-color: #EFEAE3;
   display: flex;
   align-items: center;
@@ -1520,16 +1519,16 @@ height: 45%;
 }
 #badeguruji #imagecon{
   width: 90%;
-  height: 40%;
+  height: 70%;
   /* background-color: gray; */
   overflow: hidden;
   border-radius: 10px;
 
 }
 #menupage #mtext h2{
-  font-size: 15vw;
+  font-size: 20vw;
   font-family: "neuer";
-  -webkit-text-stroke: 5px white;
+  -webkit-text-stroke: 2px white;
 }
 #menupage span{
   display: flex;
@@ -1557,7 +1556,11 @@ height: 45%;
 }
 #imagespage img{
   width: 90%;
-  height: 80%;
+  height: 75%;
 }
-  
+#nav #nav-part1 i{
+  font-size: 5vw;
+  padding: 2vw 2vw;
+}
+
 }
