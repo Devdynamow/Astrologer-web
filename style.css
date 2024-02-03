@@ -38,6 +38,7 @@ html,body{
     align-items: center;
     justify-content: center;
     transition: all ease 0.5s;
+    display: none;
 }
 #loader h1{
     position: absolute;
